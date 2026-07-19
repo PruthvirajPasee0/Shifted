@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Backend local artifacts
+backend/.venv/
+backend/carpool.db
+backend/*.db
+backend/.env
+backend/uploads/
+frontend/.env
+
+# Node / frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+frontend/*.tsbuildinfo
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
