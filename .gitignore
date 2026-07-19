@@ -24,3 +24,14 @@ frontend/*.tsbuildinfo
 .DS_Store
 Thumbs.db
 *.log
+.idea/
+.vscode/
+.cursor/
+
+# Local / generated junk (not part of the app)
+Carpooling Platform (1).pdf
+Carpooling Platform - 24 hours.excalidraw
+Carpool_Platform_Schema.pdf
+make_erd.py
+make_schema_pdf.py
+*.excalidraw
